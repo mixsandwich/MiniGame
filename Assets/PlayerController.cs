@@ -20,6 +20,16 @@ public class PlayerController : MonoBehaviour {
 		if(GetComponent<Rigidbody>().IsSleeping() && CanTrack == false){
 			GetComponent<MeshRenderer>().material.color *= new Color(0.2f, 0.2f, 0.2f, 0.5f);
 		}
+
+		var x = Input.GetAxis("Horizontal") * Time.deltaTime * 150.0f;
+		var z = Input.GetAxis("Vertical") * Time.deltaTime * 3.0f;
+
+		transform.Rotate(0, x, 0);
+		transform.Translate(0, 0, z);
+
+		if(Input.GetButtonDown("Fire1")){
+			Debug.Log("Fire1");
+		}
 	}
 	void Track(){
 		//マウス位置座標をVector3で取得
