@@ -56,9 +56,11 @@
      <Compile Include="Assets\GameManager.cs" />
      <Compile Include="Assets\MouseSynchronizeObjectScript.cs" />
      <Compile Include="Assets\PlayerController.cs" />
+     <Compile Include="Assets\PlayerControllerTPS.cs" />
      <Compile Include="Assets\PlayerUIController.cs" />
      <Compile Include="Assets\Quiztext.cs" />
      <Compile Include="Assets\RendererTest.cs" />
+     <Compile Include="Assets\ShootScript.cs" />
      <Compile Include="Assets\Spawner.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>

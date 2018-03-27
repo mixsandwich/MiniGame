@@ -1,11 +1,17 @@
 fileFormatVersion: 2
 guid: a95d6537d33384ba1a48821e6c232015
-timeCreated: 1519024467
+timeCreated: 1520515300
 licenseType: Free
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - CSVfile: {instanceID: 0}
+  - Quiz: {instanceID: 0}
+  - Select1: {instanceID: 0}
+  - Select2: {instanceID: 0}
+  - Select3: {instanceID: 0}
+  - Select4: {instanceID: 0}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 
